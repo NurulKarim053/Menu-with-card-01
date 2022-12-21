@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: white;
+    width: 1275px;
+   margin: 0 auto;
+   border: 2px solid #eee;
+}
+a{
+    text-decoration: none;
+}
+.menu ul li{
+    display: inline-block;
+  
+}
+.menu ul{
+    text-align: center;
+   
+}
+
+.menu ul li a{
+    display: block;
+    padding: 20px 60px;
+    color: black;
+    transition: 500ms;
+}
+.menu ul li:hover a { background-color: red;
+    color: white;
+   
+
+}
+.Free{ 
+    background-color: red;
+}
+.card1{
+    box-sizing: border-box;
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(./img/worldcup.img);
+    background-size: cover;
+    border-radius: 55%;
+    border: 2px solid blue;
+}
+.card2{
+    box-sizing: border-box;
+    background-color: white;
+    width: 500px;
+    padding: 20px 30px;
+    color:orange;
+    font-family: Courgette;
+    text-align: justify;
+    border: 1px;
+    border-radius: 10px 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    border: 2px solid rgb(13, 49, 226);
+}
+   
+.card2 h1 {
+    text-align: center;
+    color: red;
+}
+.card2:hover a{
+    background-color: red;
+    color: white;
+}
+.card3{
+    box-sizing: border-box;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    background-color:white;
+    width: 500px;
+    height: 400px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-size: cover;
+    border: 2px solid black;
+    background-position: center;
+    font-size: 23px;
+    line-height: 37px;
+    font-family: 'Dr Sugiyama', cursive;
+    text-align: justify;
+    color: rgb(232, 12, 52);
+    margin-bottom: 10px;   
+}
+.card3 h1{
+    text-align: center;
+    color: #193EE7;
+}
+.card3 a {
+  
+    color: orange;
+}
+.card3:hover a{
+    background-color: red;
+    color: white;
+}
+.card4{
+    box-sizing: border-box;
+    background-image: url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2VhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    width: 700px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 45px 0 45px 0;
+    border: 2px solid #ccc;
+    padding: 10px 10px;
+    font-family: 'Satisfy', cursive;
+    text-align: justify;
+    font-size: 23px;
+    line-height: 37px;
+    margin-bottom: 10px;    
+}
+.card4 a{
+    color:coral;
+    
+}
+.card4 h1{
+    text-align: center;
+    color: orange;
+}
+.card4:hover a{
+    background-color:blue;
+}
+.card5{
+    box-sizing: border-box;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    padding: 10px 10px;
+    font-family: 'Satisfy', cursive;
+    text-align: justify;
+    font-size: 23px;
+    line-height: 37px;}
+
+    .card5 h1{ text-align: center;
+    }
+    .card5:hover a{
+        background-color: red;
+    }
+    .menu2{
+        box-sizing: border-box;
+        background-color:orange;
+        width: 1275px;
+        margin: 0 auto;
+        height: 50px;
+        border: 2px solid #eee;
+        text-align: center;
+        font-size: 40px;  
+    }
+    .menu2:hover a{
+        background-color: red;
+        color: white ;
+    }
+    .prothom{
+        box-sizing: border-box;
+        width: 300px;
+        height: 100px;
+        background-color: white;
+        background-image:url(https://images.prothomalo.com/prothomalo/import/default/2016/03/15/4d3620a7127d4a031a05a962fcc4b253-palo-logo.jpg);
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;     
+    }
+    .home{
+        background-color: red;
+    }
+    .head{box-sizing: border-box;
+       
+    }
+    span{
+        font-size: 15px;
+        font-family: arial;
+        color:blue;
+    }
+    .comment{
+        color: blue;
+        font-size: 15px;
+        font-family: arial;
+    }
+    .part1{
+        background-image: url(./img/Lionel_Messi\(7\).jpg);
+        background-size: cover;
+        width: 350px;
+        padding: 100px;
+        margin: 10px 0 0 10px;
+        border: 2px solid blue;
+        border-radius: 55%;
+        display: inline-block;
+    }
+    
+    .part2{
+        background-image: url(./img/Ronaldo.img);
+        background-size: cover;
+        width: 350px;
+        padding: 100px;
+        border: 2px solid red;
+        border-radius: 55%;
+        display: inline-block;
+    }
+    .part3{
+        background-image: url(./img/Nyemar.jpg);
+        background-size: cover;
+        width: 350px;
+        padding: 100px;
+        border: 2px solid yellow;
+        border-radius: 55%;
+        display: inline-block;
+    }
+    .part4{
+        background-image: url(./img/argentina.img);
+        background-size: cover;
+        width: 350px;
+        height: 250px;
+        padding: 30px;
+        margin: 0 0 0 10px;
+        border: 2px solid blue;
+        border-radius: 0 0 50px 50px;
+        display: inline-block;
+        text-align: justify;
+        font-size: 17px;
+        color:black;
+    }
+    .part5{
+        background-image: url(./img/portugal.img);
+        background-size: cover;
+        width: 350px;
+        height: 250px;
+        padding: 30px;
+        border: 2px solid red;
+        border-radius: 0 0 50px 50px;
+        display: inline-block;
+        text-align: justify;
+        font-size: 17px;
+        color: limegreen;
+    }
+    .part6{
+        background-image: url(./img/brazil.img);
+        background-size: cover;
+        background-position: center;
+        width: 350px;
+        height: 250px;
+        padding: 30px;
+        border: 2px solid yellow;
+        border-radius: 0 0 50px 50px;
+        display: inline-block;
+        text-align: justify;
+        font-size: 17px;
+        color: red;
+    }
+    p {
+        text-align: justify;
+    }
+    center{
+        color: white;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
